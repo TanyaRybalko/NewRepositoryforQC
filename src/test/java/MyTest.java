@@ -16,6 +16,8 @@ public class MyTest {
         System.setProperty(chromeDriver, driverPath);
         WebDriver driver = new ChromeDriver();   // open browser
 
+
+        // added notes
         driver.close();
         driver.quit();
     }
